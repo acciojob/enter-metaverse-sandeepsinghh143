@@ -3,9 +3,6 @@ let  button=document.getElementById("enterBtn");
 
 button.addEventListener("click",()=>{
 	let para=document.getElementById("status");
-	let head=document.createElement("h1");
-	head.id="status";
-    head.innerText="Entered metaverse";
-	para.replaceWith(head);
-}
+    para.innerHTML="<h1>Entered metaverse</h1>";
+  }
 )
